@@ -39,7 +39,8 @@ jobs:
       - name: Install Packages
         run: |
           pipenv install 
-          pipenv run pip install -t .
+          pipenv lock -r > requirements.txt
+          pipenv run pip install -r requirements.txt -t .
           
       - name: zip files 
         run: | 
