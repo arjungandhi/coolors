@@ -16,7 +16,7 @@ def lambda_handler(event, context):
     }
 
 async def main():
-    browser = await launch(headless=True)
+    browser = await launch(headless=True, args= ['--no-sandbox'] )
     page = await browser.newPage()
     await page.goto('https://coolors.co/generate',{'waitUntil' : 'networkidle2'})
     js = "() => { return window.location.href }"
