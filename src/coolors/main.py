@@ -2,7 +2,7 @@ import asyncio
 from pyppeteer import launch
 import json
 
-def gen_colors():
+def coolors():
     loop = asyncio.get_event_loop()
     r = loop.run_until_complete(_main())
     result = r.split('/')[-1]
