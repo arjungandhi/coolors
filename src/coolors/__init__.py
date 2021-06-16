@@ -1,1 +1,1 @@
-from main import coolors
+from ./main import coolors
