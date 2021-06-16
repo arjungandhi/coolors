@@ -1,1 +1,1 @@
-from .main import generate
+from .main import generate, async_generate

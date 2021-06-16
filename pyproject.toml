@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "coolors"
-version = "0.1.3"
+version = "0.1.4"
 description = "generates 5 random colors by scraping coolors.co"
 authors = ["Arjun Gandhi <account@arjugandhi.com>"]
 readme = "README.md"
